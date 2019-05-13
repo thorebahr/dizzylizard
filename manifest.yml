@@ -5,3 +5,6 @@ applications:
  - name: dizzylizard
    buildpack: nodejs_buildpack
    memory: 32M
+   instances: 5
+   routes:
+   - route: lizzy.cap.susedemo.com
